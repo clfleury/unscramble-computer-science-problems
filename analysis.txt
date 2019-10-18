@@ -1,0 +1,38 @@
+Task 0:
+
+Array Access: O(1)
+Only need single items from list; these require index operations, which are constant time complexity
+
+Task 1:
+
+Loops and Sets: O(n)
+Uses 2 loops to add values to sets, which are linear time complexity
+Adding values to sets are constant time complexity
+
+Task 2: 
+
+Loop: O(n)
+Uses loop to add values to dictionary, is a linear time complexity
+Adding values to dictionary are constant time complexity
+Searches for maximum value of dictionary, which is a linear time complexity
+
+Task 3:
+
+Loop: O(n^2)
+getPrefix splits string, which is linear time complexity
+getPrefix accesses string values, which is constant time complexity
+findBangladoreCallers loops through all calls, which is linear time complexity, then loops through strings, which is quadratic time complexity
+findBangladoreCallers adds values to set, which is constant time complexity
+findBangladoreCallers sorts values of set, which is linearithmic time complexity
+findBangladoreCallers loops through set, which is linear time complexity
+findBangladoreToBangladoreCallers loops through all calls, which is linear time complexity
+findBangladoreToBangladoreCallers appends numbers to list, which are constant time complexity
+findBangladoreToBangladoreCallers divides lengths of lists, which are constant time complexity
+
+
+Task 4:
+
+Loops and Sets: O(n log n)
+Loops through csv and sets which is linear time complexity
+Adds and removes values to sets which are constant time complexity
+Sorts values of set, which is linearithmic time complexity
